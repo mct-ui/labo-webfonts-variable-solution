@@ -1,0 +1,105 @@
+/*---------------------------------------/*
+ # SETTINGS
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+ # GENERIC
+/*---------------------------------------*/
+
+@font-face {
+    font-family: "Fraunces";
+    src: url('../assets/fonts/fraunces/Fraunces-Variable.woff2') format('woff2-variations');
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: "Fraunces Italic";
+    src: url('../assets/fonts/fraunces/Fraunces-Italic-Variable.woff2') format('woff2-variations');
+    font-style: italic;
+    font-weight: 100 900;
+}
+
+/*---------------------------------------/*
+ # ELEMENTS
+/*---------------------------------------*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Fraunces, sans-serif;
+    font-variation-settings: 'opsz' 9;
+    background-color: #000;
+    color: white;
+    line-height: 1.5;
+    /* background-image: url('../assets/img/alex2.jpg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding-bottom: 10vh;
+    background-size: 60% auto; */
+    /* background-image: url('https://movies-b26f.kxcdn.com/wp-content/uploads/2020/04/Mxdwn-Movies-A-Clockwork-Orange.2.jpg'); */
+    /* background-image: url('https://1.bp.blogspot.com/-varLI16sFXs/XX0LAdu8d5I/AAAAAAAA0AY/_sjrtKTXHQccUzplT7gYTYhEU2sQ7MpxgCNcBGAsYHQ/s1600/A%2BClockwork%2BOrange%2B-%2BAelx%2Bcon%2Bvaso%2Bde%2Bleche%2Bplano%2Bmedio.jpg'); */
+    /* background-image: url('https://cdni.fancaps.net/file/fancaps-movieimages/1504857.jpg'); */
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center; */
+
+    background-image: url('../assets/img/alex.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 40vw;
+    /* anti-aliasing */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    max-width: min-content;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: darkorange;
+    align-self: center;
+    font-size: 3rem;
+    font-size: clamp(3rem, -1.666666666666667rem + 23.333333333333332vw, 10rem);
+    text-align: center;
+    max-width: min-content;
+    line-height: .9;
+    font-weight: 700;
+    font-variation-settings: 'opsz' 144, 'SOFT' 10, 'WONK' 1;
+    margin: 1rem;
+}
+
+em {
+    font-family: "Fraunces Italic", serif;
+    font-style: italic;
+}
+
+/*---------------------------------------/*
+# OBJECTS
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+# COMPONENTS
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+ # UTILITIES
+/*---------------------------------------*/
+
+.u-italic {
+    font-family: "Fraunces Italic", serif;
+    font-style: italic;
+}
